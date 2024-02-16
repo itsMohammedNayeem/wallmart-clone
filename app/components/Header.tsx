@@ -71,6 +71,17 @@ export const Header = () => {
             <p>Account</p>
           </div>
         </Link>
+
+        <Link
+          href="/"
+          className="flex text-white font-bold items-center space-x-2 text-sm"
+        >
+          <ShoppingCart size={20} />
+          <div>
+            <p className="text-xs font-extralight">No Items</p>
+            <p>$0.00</p>
+          </div>
+        </Link>
       </div>
     </header>
   );
